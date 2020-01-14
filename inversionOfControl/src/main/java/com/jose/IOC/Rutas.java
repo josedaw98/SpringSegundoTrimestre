@@ -42,5 +42,16 @@ public class Rutas {
 		
 		return salida;
 	}
+	
+	
+	
+	
+	@GetMapping("/singleton1")
+	@ResponseBody
+	public String rutaSingleton() {
+		
+		
+		return componenteNombres.toString();
+	}
 
 }
